@@ -1,0 +1,12 @@
+[project]
+name = "oscillo-text"
+version = "0.1.0"
+description = "Converts text to oscilloscope visuals using audio waveforms. Includes text-to-WAV script, setup instructions, and a circle test pattern."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "matplotlib>=3.10.1",
+    "numpy>=2.2.4",
+    "scipy>=1.15.2",
+    "sounddevice>=0.5.1",
+]
